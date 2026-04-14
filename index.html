@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: Manavendra Gupta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <div class="container flex bg-black rounded full-screen">
+        <div id="progress-bar"></div>
+        <div class="nav rounded">
+            <ul>
+                <li>HERO</li>
+                <li>ABOUT</li>
+                <li>SKILLS</li>
+                <li>PROJECT</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
+        <section class="hero full-screen">
+            <div class="intro">
+                <p class="para1">Aspiring Web Developer</p>
+                <h1 class="name">Manavendra Gupta</h1>
+                <span id="element"></span>
+                <div class="flex gap-6">
+                    <a href="https://github.com/mahip1111">
+                        <img src="img/github.svg" class="invert" alt="github">
+                        <span>Github</span>
+                        <img src="img/arrow.svg" class="none invert" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/manavendra-gupta-a51359376/">
+                        <img src="img/linkedin.svg" class="invert" alt="">
+                        <span>LinkedIn</span>
+                        <img src="img/arrow.svg" class="none invert" alt="">
+                    </a>
+                    <a href="mailto:guptamanavendra6@gmail.com">
+                        <img src="img/email.svg" class="invert" alt="">
+                        <span>Email</span>
+                        <img src="img/arrow.svg" class="none invert" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="about-section">
+    <div class="container">
+      <p class="small-title">01 — About</p>
+      <div class="grid">
+        <!-- LEFT -->
+        <div class="left">
+          <h2>
+            Crafting digital <br> experiences
+          </h2>
+          <p>
+            I specialize in building interactive full-stack web applications
+            with a strong focus on animations and performance. Currently
+            diving deeper into system design and scalable architectures.
+          </p>
+        </div>
+        <!-- RIGHT -->
+        <div class="right">
+          <div class="focus">
+            <p class="section-title">Focus Areas</p>
+            <ul>
+              <li>• Motion-first UI</li>
+              <li>• State management</li>
+              <li>• API & data efficiency</li>
+              <li>• Full-stack MERN</li>
+            </ul>
+          </div>
+          <div class="current">
+            <p class="section-title">Currently</p>
+            <p class="current-text">
+              Open to MERN projects and product-focused collaborations.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+    <script src="script.js"></script>
+
+    <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Building Projects | Growing Daily', 'Building. Breaking. Learning. Repeating.'],
+      typeSpeed: 50,
+    });
+  </script>
+    <!-- this is for the type.js -->
+</body>
+</html>

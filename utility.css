@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+/* fonts i get are: Open Sans, Saira Stencil, Montserrat */
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.full-screen {
+    height: 100vh;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.gap-6{
+    gap: 60px;
+}
