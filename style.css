@@ -36,7 +36,7 @@ body{
   }
 
 .nav{
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 10px;
     height: 30vh;
@@ -286,6 +286,14 @@ a:active {
   font-size: 14px;
 }
 
+.work-section {
+    align-items: center;
+    padding: 80px 120px;
+  }
+
+.work{
+  
+}
 
 
   

@@ -33,3 +33,16 @@
 .gap-6{
     gap: 60px;
 }
+
+.gap-4{
+    gap: 40px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction:column;
+}
